@@ -1,0 +1,18 @@
+Package GetandSet;
+class Parent{
+  private int a;
+  public int getA(){
+      return a;
+     }
+ public void serA(int a){
+     this.a=a;
+     }
+}
+
+class P1 extends Parent{
+  public static void main(string[]args){
+    P1 bb=new P1();
+    bb.setA(7);
+    int ss=bb.get A( );
+    system.out.println(ss);
+}
