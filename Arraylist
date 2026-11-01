@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class RemoveDemo {
+    public static void main(String[] args){
+        ArrayList<String> names = new ArrayList<String>();
+        
+        names.add("A"); // Index 0
+        names.add("B"); // Index 1
+        names.add("C"); // Index 2
+        
+        
+        names.remove(1);
+      
+        names.remove("C"); 
+        System.out.println(names); 
+        
+    }
+}
